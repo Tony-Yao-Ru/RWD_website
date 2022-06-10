@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Practice</title>
+        <link href="style.css" rel="stylesheet">
+
+        <!--  The standard attachments of Bootstrap  -->
+        <link href="CSS/bootstrap.min.css" rel="stylesheet">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Make the chinese not being garbled -->
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div class="container">
+            <div class="background justify-content-center">
+                <div class="row justify-content-center">
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                        <div class="block">
+                            <h1 class="align-center">Bulletin Board</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">    
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                        <div class="block_content" data-bs-spy="scroll" data-bs-offset="0" tabindex="0">
+                            <div class="accordion" id="accordionExample">
+                                <h2 id="trg_convention" data-bs-toggle="collapse" href="#convention" role="button" onClick="reply_click(id)" aria-expanded="false" aria-controls="convention">
+                                    Convention of bulletin board:
+                                </h2>
+                                <p class="collapse" data-bs-parent="#accordionExample" id="convention">
+                                    1. Not posting any dirty, race, or aggressive statement<br>
+                                    2. Not harassing any user<br>
+                                    3. Be polite<br>
+                                    4. Be gentle<br>
+                                    5. Keep sharing some thoughts<br>
+                                    6. Keep sharing some interesting things<br>
+                                </p>
+                                <div id="port_article">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <div class="block">
+                            <form class="form-group">
+                                <input class="form-control" id="input_name" placeholder="Leave your name"></input>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-8 col-md-8">
+                        <div class="block">
+                            <form class="form-group">
+                                <input class="form-control" id="input_text" placeholder="Let us know you came before"></input>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                        <div class="block text-center">
+                            <button id="publish_post" type="button" class="btn btn-outline-primary">Publish</button>
+                            <button id="comment_post" type="button" class="btn btn-outline-primary">Comment</button>
+                            <button id="delete_contact" type="button" class="btn btn-outline-primary">delete</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+         <!--  The standard attachments of jquery  -->
+         <!--
+         <script src="js/popper.min.js"></script>
+        -->
+         <script src="js/jquery.min.js"></script>
+         <script src="js/popper.min.js"></script>
+         <script src="js/bootstrap.min.js"></script>
+
+         <!--  Customized javascrip file  -->
+         <script src="main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,5 @@
+<h2 id="trg_shmbabp" data-bs-toggle="collapse" href="#shmbabp" role="button" onClick="reply_click(id)" aria-expanded="false" aria-controls="shmbabp">7:03:27 PM-6/10/2022-Shang-Ru</h2>
+ <div class="collapse" data-bs-parent="#accordionExample" style="margin-bottom: 0;" id="shmbabp">
+<p>Happy birthday<br></p>
+<p>[REPLY]Shang-Ru: Happy birthday<br></p>
+</div>
