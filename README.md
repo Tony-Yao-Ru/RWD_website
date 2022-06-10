@@ -14,3 +14,7 @@ This is the bulletin board which can let the visitor post and leave the comment.
 
 ## The interface of UI
 ![image](https://github.com/Tony-Yao-Ru/RWD_website/blob/main/Screen%20Shot%202022-06-10%20at%208.40.35%20PM.png)
+
+## Application
+http://120.126.5.124/Practice/index.html
+NOTE: This is implemented at my previous lab.
