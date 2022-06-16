@@ -2,7 +2,7 @@
 HTML + CSS + JavaScript + PHP
 
 ## Overview
-This is the bulletin board which can let the visitor post and leave the comment. However, in order to make easilly manage, it does not link with any backend system. Instead, it uses PHP to control the file creating and saving in the server side. For the front-end, Boostrap V5.0 is used to create the scroll and collapse animation. In order to make every visitor capable of seeing the post, Ajax of Javascript is to give a order for PHP to create a file accommadating the user's posting. And, saving and sending the content to client is also used by PHP.
+This is the bulletin board which can let the visitor post and leave the comment. However, in order to make easilly manage, it does not link with any backend system. Instead, it uses PHP to control the file creating and saving on the server side. For the front-end, Boostrap V5.0 is used to create the scroll and collapse animation. In order to make every visitor capable of seeing the post, Ajax of Javascript is to give a order to PHP to create a file accommadating the user's posting. And, saving and sending the content to client is also used by PHP.
 
 ## Introduction to the Function
 1. Visitor can post and leave the comment by "PHP".
